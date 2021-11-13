@@ -1,0 +1,19 @@
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: firebrick;
+    height: 30px;
+}
+.link{
+    color:white;
+    text-decoration: none;
+    padding-left: 30px;
+}
+
+.link:hover{
+    color:black;
+}
+
