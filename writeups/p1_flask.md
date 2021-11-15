@@ -37,8 +37,14 @@ framework are listed below:
 
 ## Which developers use Flask, and what do they use it for?
 
+Primarily developers who are already familiar with Python or new developers who want to create a web app relatively 
+quickly. Flask can be used to create any web app, though most use cases include, but are not limited to, blog
+websites, content websites, experimenting with a new web app idea before investing more time/money/etc. with a more
+full framework (e.g., Django).
+
 ## References:
 - https://github.com/pallets/flask
 - https://github.com/django/django
 - https://dev.to/detimo/python-flask-pros-and-cons-1mlo
 - https://www.stxnext.com/blog/flask-vs-django-comparison/
+- https://dev.to/amigosmaker/what-is-flask-used-for-2do5
