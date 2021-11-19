@@ -12,12 +12,25 @@ complex coding that was originally needed to create dynamic web pages which is w
   block components that can then be reused as needed.
 - Mobile Design: A version of React known as React Native can be used to build cross platform mobile applications. Once a developer knows React
   they can use the same skills for mobile development.
--Efficiency: React uses a virtual DOM which means it only re-renders components that require re-evaluation. This feautre impromves the ovearall
+-Efficiency: React uses a virtual DOM which means it only re-renders components that require re-evaluation. This feautre improves the ovearall
  performance of the webpage.
+ 
+ 
+**Weaknesses**:
+-JSX: While the React library and concepts are fairly easy to learn , the JSX syntax can take some time to grasp. JSX stands for JavaScriptHTML and is what enables developers to write HTML alongside JavaScript.
+-Pace of development: This can be seen as both a pro and a con. The react library is constantly growing
+at a rapid pace and this allows developers to use new and evolving technologies. However, due to the this rapid growth, the documentation for certain things can be lacking
 
+
+ 
+ # What developers are using React, and what are they using it for?
+ 
+ Developers who are comfortable with JavaScript and want dynamic single page applications are most commonly using React. React can easily be installed in a matter of minutes which makes it an excellent choice for frontend web development. Some websites that are currently using React include Netflix, Facebook, Airbnb and Reddit. 
  
  MORE HERE:
 
 ## References:
 - https://www.statista.com/statistics/1124699/worldwide-developer-survey-most-used-frameworks-web/
+- https://www.simform.com/blog/websites-use-react/
+- https://www.javatpoint.com/pros-and-cons-of-react
 
