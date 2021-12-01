@@ -1,5 +1,17 @@
 const Page2 =()=>{
-    return (<h1>This is Page 2</h1>);
-}
+    return (
+        <div className="outer-container">
+          <div className="container">
+            
+
+
+
+
+
+
+          </div>
+        </div>
+      );
+    }
 
 export default Page2;
