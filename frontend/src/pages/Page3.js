@@ -83,7 +83,19 @@ const Page3 =()=>{
                         </li>
                     </ol>
                     <p><b>That's all!</b> The backend portion of the tutorial is done.</p>
+
                 </section>
+                <h1 className="section-title">Creating a Python Interpreter: Frontend</h1>
+                <section>
+                <h2 className = "section-subtitle">Run the  following commands to initiate the react app:</h2>
+                <p className="cmd">cd frontend</p>
+                <p className="cmd">npx-create-react-app</p>
+                </section>
+
+                <h2 className = "section-subtitle">In the src folder add the following code:</h2>
+                
+
+
             </div>
         </div>
     );
