@@ -12,6 +12,10 @@ import Page5 from "./pages/Page5";
 import Page6 from "./pages/Page6";
 
 function App() {
+  useEffect(() => {
+    document.title = "CPS530 - Term Project"
+  });
+
   return (
     <React.Fragment>
       <Navbar />
