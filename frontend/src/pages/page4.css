@@ -1,4 +1,47 @@
-.code-area{
+.code-area {
     height:500px;
-    width:500px;
+    width:60%;
+    resize: none;
+    margin-top: 25px;
+    font-size: 20px;
+    border-color: #4284f5;
+    border-width: 3px;
+}
+
+.code-area:focus {
+    outline: none;
+}
+
+.result-area-header {
+
+}
+
+.result-area {
+    height: 250px;
+    width: 30%;
+    resize: none;
+    font-size: 20px;
+    border: none;
+    text-align: center;
+    outline: none;
+    caret-color: transparent;
+}
+
+.result-area:hover {
+    outline: none;
+}
+
+.execute-code-button {
+    width: 25%;
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #4284f5;
+    color: white;
+    font-size: 125%;
+    text-align: center;
+    border: none;
+}
+
+.execute-code-button:hover {
+    background-color: #3368c5;
 }

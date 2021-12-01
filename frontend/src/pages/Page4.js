@@ -2,9 +2,18 @@ import axios from "axios";
 import "./page4.css";
 import { useState } from "react";
 
+const DEFAULT_CODE_STRING = `# write code here
+def print_hello_world():
+  print("Hello, World!")
+
+print_hello_world()
+
+# press the "EXECUTE CODE" button to run this code!
+`;
+
 const Page4 = () => {
-  const [textAreaValue, setTextAreaValue] = useState("");
-  const [result, setResult] = useState("");
+  const [textAreaValue, setTextAreaValue] = useState(DEFAULT_CODE_STRING);
+  const [result, setResult] = useState("Results will appear here once you execute some code");
 
   const onKeyEnteredHandler = (event) => {
     setTextAreaValue(event.target.value);
@@ -37,19 +46,28 @@ const Page4 = () => {
   }
 
   return (
-    <div>
+    <div align="center">
       <textarea
-        id="codeArea"
         className="code-area"
+        autoComplete="off"
+        autoCorrect="off"
         onChange={onKeyEnteredHandler}
         value={textAreaValue}
       >
         Type here
       </textarea>
-      <button type="submit" onClick={onSubmitHandler}>
-        Click me
+      <br></br>
+      <button className="execute-code-button" type="submit" onClick={onSubmitHandler}>
+        EXECUTE CODE
       </button>
-      <textarea value={result}></textarea>
+      <br></br>
+
+      <h3 className="result-area-header">EXECUTION RESULTS</h3>
+      <textarea 
+        className="result-area"
+        value={result}
+      >
+      </textarea>
     </div>
   );
 };
