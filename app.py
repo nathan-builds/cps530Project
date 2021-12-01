@@ -12,5 +12,4 @@ api = flask_restful.Api(app)
 def serve(path):
     return flask.send_from_directory(app.static_folder, 'index.html')
 
-# api.add_resource(HelloApiHandler, '/flask/hello')
-api.add_resource(PythonEvalHandler, '/flask/hello')
+api.add_resource(PythonEvalHandler, '/pyinterpreter/eval')

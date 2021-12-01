@@ -18,6 +18,6 @@ class PythonEvalHandler(Resource):
 
     output = capture.getvalue()
 
-    final_ret = {"status": "success", "result": output}
+    resp = {"status": "success", "result": output}
 
-    return final_ret
+    return resp

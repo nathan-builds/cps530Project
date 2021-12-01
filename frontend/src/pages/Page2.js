@@ -27,7 +27,7 @@ const Page2 = () => {
           </p>
         </section>
 
-        <h2 className="section-sub-title">Installing venv</h2>
+        <h3 className="section-sub-title">Installing venv</h3>
         <section>
           <p>
             This is a more straightforward approach. Documentation for venv can
@@ -35,7 +35,7 @@ const Page2 = () => {
           </p>
         </section>
 
-        <h2 className="section-sub-title">Installing conda</h2>
+        <h3 className="section-sub-title">Installing conda</h3>
         <section>
           <p>
             Installation steps can be found on
@@ -43,7 +43,7 @@ const Page2 = () => {
           </p>
         </section>
 
-        <h2 className="section-sub-title">Creating the environment</h2>
+        <h3 className="section-sub-title">Creating the environment</h3>
         <section>
           <p>
             Installation steps can be found on
@@ -51,15 +51,15 @@ const Page2 = () => {
           </p>
         </section>
 
-        <h3 className="section-sub-title">venv</h3>
+        <h4 className="section-sub-title">venv</h4>
         <section>
           <p className="cmd">python -m venv /path/to/env</p>
           <p>Activating venv (note that this is specific to *nix systems):</p>
           <p className="cmd">source /path/to/env/bin/activate</p>
         </section>
-        <h3 className="section-sub-title">conda</h3>
+        <h4 className="section-sub-title">conda</h4>
         <section>
-          <p className="cmd">conda create -n ENV_NAME python=version ANY_OTHER_DEPENDENCIES</p>
+          <p className="cmd">conda create -n ENV_NAME [python=version] [any other dependencies]</p>
           <p>Example usage:</p>
           <p className="cmd">conda create -n testenv python=3.9</p>
           <p>Activating conda environment:</p>
@@ -68,7 +68,7 @@ const Page2 = () => {
           <p className="cmd">conda activate testenv</p>
         </section>
 
-        <h1 className="section-title">Installing Flask</h1>
+        <h2 className="section-title">Installing Flask</h2>
         <section>
           <p className="cmd">pip install flask</p>
           <p>
@@ -79,7 +79,7 @@ const Page2 = () => {
           <p className="cmd">pip3 install flask</p>
         </section>
 
-        <h1 className="section-title">Installing React</h1>
+        <h1 className="section-title">Installing Frontend Framework: React</h1>
 
         <h2 className="section-sub-title">Install Node</h2>
         <section>

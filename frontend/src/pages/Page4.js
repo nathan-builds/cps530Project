@@ -37,7 +37,7 @@ const Page4 = () => {
       body: JSON.stringify(testObj),
     };
     const response = await fetch(
-      "http://localhost:5000/flask/hello",
+      "http://localhost:5000/pyinterpreter/eval",
       postDetails
     );
     const data = await response.json();
