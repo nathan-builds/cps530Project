@@ -15,36 +15,34 @@ const Page4 = () => {
   const [textAreaValue, setTextAreaValue] = useState(DEFAULT_CODE_STRING);
   const [result, setResult] = useState("Results will appear here once you execute some code");
 
+  //#1
   const onKeyEnteredHandler = (event) => {
     setTextAreaValue(event.target.value);
   };
 
+  //#2
   async function onSubmitHandler() {
     let testObj = {
       Code: textAreaValue,
     };
     console.log(textAreaValue);
 
-    // fetch("http://localhost:5000/flask/hello", {
-    //   method: "POST",
-    //   headers: { "Content-type": "application.json" },
-    //   body: JSON.stringify(testObj),
-    // }).then(result => result.json()).then(result)
-
+    //#3
     const postDetails = {
       method: "POST",
       headers: { "Content-type": "application.json" },
       body: JSON.stringify(testObj),
     };
     const response = await fetch(
-      "http://localhost:5000/pyinterpreter/eval",
+      "http://localhost:5000/flask/hello",
       postDetails
     );
     const data = await response.json();
-
+  //#4
     setResult(data.result);
   }
 
+  //#5
   return (
     <div align="center">
       <textarea
