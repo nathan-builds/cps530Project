@@ -22,7 +22,7 @@ const Page1 = () => {
           </p>
         </section>
 
-        <h2 className="section-sub-title">Strengths:</h2>
+        <h3 className="section-sub-title">Strengths:</h3>
         <section>
           <ul>
             <li>
@@ -61,7 +61,7 @@ const Page1 = () => {
             </li>
           </ul>
         </section>
-        <h2 className="section-sub-title">Weaknesses:</h2>
+        <h3 className="section-sub-title">Weaknesses:</h3>
         <section>
           <ul>
             <li>
@@ -87,9 +87,9 @@ const Page1 = () => {
           </ul>
         </section>
 
-        <h1 className="section-title">
+        <h2 className="section-title">
           Which developers use Flask, and what do they use it for?
-        </h1>
+        </h2>
         <section>
           <p>
             Primarily developers who are already familiar with Python or new
@@ -114,7 +114,7 @@ const Page1 = () => {
           </p>
         </section>
 
-        <h2 className="section-sub-title">Strengths:</h2>
+        <h3 className="section-sub-title">Strengths:</h3>
         <section>
           <ul>
             <li>
@@ -144,13 +144,13 @@ const Page1 = () => {
               knows React they can use the same skills for mobile development.
             </li>
             <li>
-              -Efficiency: React uses a virtual DOM which means it only
+              Efficiency: React uses a virtual DOM which means it only
               re-renders components that require re-evaluation. This feautre
               improves the ovearall performance of the webpage.
             </li>
           </ul>
         </section>
-        <h2 className="section-sub-title">Weaknesses:</h2>
+        <h3 className="section-sub-title">Weaknesses:</h3>
         <section>
           <ul>
             <li>
@@ -169,9 +169,9 @@ const Page1 = () => {
           </ul>
         </section>
 
-        <h1 className="section-title">
+        <h2 className="section-title">
           What developers are using React, and what are they using it for?
-        </h1>
+        </h2>
         <section>
           <p>
             Developers who are comfortable with JavaScript and want dynamic
