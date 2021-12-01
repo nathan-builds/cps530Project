@@ -1,6 +1,8 @@
 import "./page.css";
+import app_py_img from "./images/app_py.png";
 import code1 from "./images/code_1.PNG";
 import code2 from "./images/code_2.PNG";
+import python_eval_handler_img from "./images/python_eval_handler.png";
 
 const Page3 = () => {
   return (
@@ -13,7 +15,7 @@ const Page3 = () => {
           <p>
             Before getting started, ensure you have followed the tutorial on how
             to install Flask on Page 2. Additionally, you will need a couple
-            extra dependencies. You can install them using `pip` (or pip3 if
+            extra dependencies. You can install them using pip (or pip3 if
             you're using Python 3.x):
           </p>
           <p className="cmd">pip install flask_restful</p>
@@ -36,7 +38,7 @@ const Page3 = () => {
             In your project root directory, create a new file named `app.py` and
             add the following:
           </p>
-          INSERT IMAGE HERE
+          <img src={app_py_img}></img>
           <p>
             The beginning part of this code initializes the app by instantiating
             a new Flask instance. We then enable CORS (Cross Origin Resource
@@ -62,7 +64,7 @@ const Page3 = () => {
             Create a new file in the api directory called
             `python_eval_handler.py`. This will file will contain:
           </p>
-          INSERT IMAGE HERE
+          <img src={python_eval_handler_img}></img>
           <p>Explanation of what's happening in the code above:</p>
           <ol>
             <li>
@@ -107,28 +109,24 @@ const Page3 = () => {
           Creating a Python Interpreter: Frontend
         </h1>
         <section>
-          <h2 className="section-subtitle">
-            Run the following commands to initiate the react app:
-          </h2>
+          <p><b>Run the following commands to initiate the react app:</b></p>
           <p className="cmd">cd frontend</p>
           <p className="cmd">npx-create-react-app</p>
         </section>
 
-        <h2 className="section-subtitle">
-          In the src folder add the following code:
-        </h2>
+        <p><b>In the src folder add the following code:</b></p>
         <img src={code1}></img>
         <section>
           <p>
-            #1 This is an event listener that listens to entered text in the
+            1. This is an event listener that listens to entered text in the
             text area.
           </p>
           <p>
-            #2 This Asynchronous function will make the call to Flask with the
-            python code to be run.
+            2. This Asynchronous function will make the call to Flask with the
+            Python code to be run.
           </p>
           <p>
-            #3 Details about the protocol used for the POST method along with
+            3. Details about the protocol used for the POST method along with
             the data being sent.
           </p>
         </section>
@@ -136,10 +134,10 @@ const Page3 = () => {
         <section>
         <img src={code2}></img>
         <p>
-          #4 Flask has responded with the interpreted python results, set the
-          results text field with it
+          4. Flask has responded with the interpreted Python results, and set the
+          results text field with it.
         </p>
-        <p>#5 This is the JSX code for the text areas and results area</p>
+        <p>5. This is the JSX code for the text areas and results area.</p>
         </section>
       </div>
     </div>
