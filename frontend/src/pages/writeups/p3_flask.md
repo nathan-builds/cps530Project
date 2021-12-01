@@ -41,7 +41,7 @@ api.add_resource(PythonEvalHandler, '/pyinterpreter/eval')
 The beginning part of this code initializes the app by instantiating a new Flask instance. We then enable CORS (Cross Origin Resource Sharing)
 for local development. Afterwards, we construct a flask_resful Api instance to faciliate our REST API.
 
-After our setup, we create a function which will listen for requests on the "/". When a request is received, it will serve index.html from our
+After our setup, we create a function which will listen for requests on the "/" endpoint. When a request is received, it will serve index.html from our
 frontend/build directory.
 
 Finally, we add a resource to our api object we created earlier. In particular, this will register the handler for requests we will receive
