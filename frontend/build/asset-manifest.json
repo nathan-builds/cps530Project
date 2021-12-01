@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.73f45a9e.chunk.css",
+    "main.js": "/static/js/main.35c74b2e.chunk.js",
+    "main.js.map": "/static/js/main.35c74b2e.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.0a9ea56a.js",
+    "runtime-main.js.map": "/static/js/runtime-main.0a9ea56a.js.map",
+    "static/js/2.fa63cf17.chunk.js": "/static/js/2.fa63cf17.chunk.js",
+    "static/js/2.fa63cf17.chunk.js.map": "/static/js/2.fa63cf17.chunk.js.map",
+    "static/js/3.f8b113a2.chunk.js": "/static/js/3.f8b113a2.chunk.js",
+    "static/js/3.f8b113a2.chunk.js.map": "/static/js/3.f8b113a2.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.73f45a9e.chunk.css.map": "/static/css/main.73f45a9e.chunk.css.map",
+    "static/js/2.fa63cf17.chunk.js.LICENSE.txt": "/static/js/2.fa63cf17.chunk.js.LICENSE.txt",
+    "static/media/app_py.e66e45df.png": "/static/media/app_py.e66e45df.png",
+    "static/media/code_1.d0f17e5d.PNG": "/static/media/code_1.d0f17e5d.PNG",
+    "static/media/code_2.5c19842b.PNG": "/static/media/code_2.5c19842b.PNG",
+    "static/media/logo.6ce24c58.svg": "/static/media/logo.6ce24c58.svg",
+    "static/media/python_eval_handler.046d0ba3.png": "/static/media/python_eval_handler.046d0ba3.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0a9ea56a.js",
+    "static/js/2.fa63cf17.chunk.js",
+    "static/css/main.73f45a9e.chunk.css",
+    "static/js/main.35c74b2e.chunk.js"
+  ]
+}
