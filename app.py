@@ -4,7 +4,7 @@ import flask_cors
 from api.python_eval_handler import PythonEvalHandler
 
 app = flask.Flask(__name__, static_url_path='', static_folder='frontend/build')
-flask_cors.CORS(app)
+##flask_cors.CORS(app)
 api = flask_restful.Api(app)
 
 
