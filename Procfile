@@ -1,1 +1,1 @@
-web: flask run
+web: npm run build && flask run
