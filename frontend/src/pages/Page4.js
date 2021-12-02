@@ -35,7 +35,7 @@ const Page4 = () => {
       body: JSON.stringify(testObj),
     };
     const response = await fetch(
-      "https://cps530-react-flask.herokuapp.com/pyinterpreter/eval",
+      "https://cps530-react-flask.herokuapp.com/pyinterpreter/eval ",
       postDetails
     );
     const data = await response.json();
